@@ -85,20 +85,42 @@ button {
 
 .random-info {
   padding-top: 20px;
+  padding-bottom: 30px;
 }
 
 #desc-title {
   text-align: center;
   font-weight: bold;
   font-size: 30px;
+  margin-bottom: 30px;
 }
+
 #boxes {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-around;
-  padding-top: 10px;
+  padding: 10px 25%;
+  gap: 50px
 }
 
 .infobox {
-  border: #3882f6;
+  border-color: #3882f6;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.box {
+  aspect-ratio: 1 / 1;
+  width: 100%;
+  border: 5px solid#3882f6;
+  border-radius: 10px;
+  margin-bottom: 5px;
+}
+
+.caption {
+  width: 100%;
+  text-align: center;
+  text-wrap: wrap;
+  color: gray;
 }
