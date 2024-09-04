@@ -124,3 +124,66 @@ button {
   text-wrap: wrap;
   color: gray;
 }
+
+.quote {
+  background-color: #e5e7eb;
+  padding: 50px 25% 30px 25%;
+}
+
+.qt {
+  font-style: italic;
+  font-size: 31px;
+}
+
+.qt-author {
+  font-weight: bold;
+  font-size: 24px;
+  text-align: right;
+  padding-right: 25px;
+}
+
+.promotion {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+}
+
+#promotion-box {
+  background-color: #3882f6;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 50%;
+  width: 60%;
+  border-radius: 10px;
+  color: white;
+}
+
+.promotion-text {
+  background-color: #3882f6;
+}
+
+#p-main {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.sign-up {
+  background-color: #3882f6;
+  border: 2px solid white;
+  border-radius: 5px;
+  font-size: 14px;
+  color: white;
+  font-weight: bold;
+  padding: 5px 20px;
+}
+
+.footer {
+  background-color: #1f2937;
+  height: 100px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
