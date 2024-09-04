@@ -3,8 +3,17 @@ body {
   margin: 0;
 }
 
-p {
+p, button {
   font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+p {
+  margin: 0;
+}
+
+button {
+  border: none;
+  border-radius: 5px;
 }
 
 #header {
@@ -17,22 +26,79 @@ p {
 .heading {
   background-color: #1f2937;
   color: white;
-  padding: 0px 80px;
+  padding: 20px 15% 100px 15%;
 }
 
 .infobar {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 30px;
+  margin-bottom: 40px;
 }
 
 .links {
   display: flex;
   justify-content: space-evenly;
+  font-size: 18px;
+  color: #e5e7eb;
   gap: 10px;
 }
 
 .intro {
   display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+#intro-text {
+  flex-basis: 50%;
+}
+
+#title {
+  font-weight: bolder;
+  font-size: 48px;
+  color: #f9faf8;
+  width: 90%;
+}
+
+#subtext {
+  font-size: 20px;
+  color: #e5e7eb;
+  width: 90%;
+}
+
+#heading-button {
+  background-color: #3882f6;
+  color: white;
+  font-weight: bold;
+  margin-top: 10px;
+  padding: 8px 25px;
+}
+
+#heading-image {
+  background-color: gray;
+  flex-basis: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.random-info {
+  padding-top: 20px;
+}
+
+#desc-title {
+  text-align: center;
+  font-weight: bold;
+  font-size: 30px;
+}
+#boxes {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  padding-top: 10px;
+}
+
+.infobox {
+  border: #3882f6;
 }
